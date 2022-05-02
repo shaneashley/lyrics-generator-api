@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #DFDFDE;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+    margin-top: 5%;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+font-size: 3rem;
+}
+
+input {
+    margin: 5px;
+  padding: 10px;
+  width: 300px;
+  
+}
+
+
+button {
+    width: 14.5%;
+    padding: 10px;
+    width: 300px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #b5b5aa;
+}
+
+h3{
+    font-size: 1.3rem;
+    margin-top: 2%;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.5rem;
+    margin: 2%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2.1rem;
+        text-align: center;
+        display: flex;
+    }
+
+    img {
+      margin: 5%;
+      width: 350px;
+    }
+
+    input {
+   padding: 10px;
+   width: 250px;
+    }
+    button {
+      width: 250px;
+        padding: 10px;
+    }
+
+    button:hover {
+        background-color: #b5b5aa;
+    }
+
+
+    h3{
+        font-size: 1.3rem;
+        margin-top: 3%;
+    }
+    
+    h2{
+        font-size: 2rem;
+    }
+    
+    p{
+        font-size: 1.5rem;
+        margin: 2%;
+        text-align: center;
+    }
+
+    span {
+        margin-top: 5%;
+    }
+}
